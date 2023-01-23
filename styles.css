@@ -176,7 +176,7 @@ input[type="checkbox"] {
 }
 
 @media only screen and (min-width: 420px) {
-    br {
+    nav br {
         display: none;
     }
 }
