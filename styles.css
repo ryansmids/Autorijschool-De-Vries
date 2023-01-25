@@ -105,6 +105,7 @@ input[type="checkbox"] {
         display: block;
         font-size: 20px;
         transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+       
     }
 
     #click:checked~ul li a {
@@ -115,6 +116,7 @@ input[type="checkbox"] {
     nav ul li a:hover {
         background: none;
         color: cyan;
+        
     }
 }
 
@@ -179,4 +181,29 @@ input[type="checkbox"] {
     nav br {
         display: none;
     }
+}
+
+.blank {
+    margin-bottom: 50px;
+}
+
+.welkombox {
+    width: 100%;
+    height: auto;
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 15px;
+}
+
+.welkombox h1 {
+    color: #fff;
+}
+
+.welkombox p {
+    color: #fff;
+}
+
+.welkombox img {
+    max-width: 100%;
+    height: auto;
 }
