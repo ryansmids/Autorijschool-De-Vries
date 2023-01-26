@@ -1,1 +1,24 @@
 @import url(nav.css);
+
+
+
+
+
+.welkombox {
+    width: 100%;
+    height: auto;
+    background-color: #0080FF;
+    text-align: center;
+    padding: 15px;
+}
+
+.welkombox h1 {
+    color: #fff;
+}
+
+.welkombox p {
+    color: #fff;
+}
+
+
+
