@@ -86,6 +86,7 @@ input[type="checkbox"] {
         text-align: center;
         display: block;
         transition: all 0.3s ease;
+        z-index: 3;
     }
 
     #click:checked~ul {
@@ -103,7 +104,7 @@ input[type="checkbox"] {
         display: block;
         font-size: 20px;
         transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-       
+
     }
 
     #click:checked~ul li a {
@@ -114,9 +115,10 @@ input[type="checkbox"] {
     nav ul li a:hover {
         background: none;
         color: cyan;
-        
+
     }
 }
+
 @media only screen and (min-width: 420px) {
     nav br {
         display: none;
